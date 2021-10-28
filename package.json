@@ -14,10 +14,13 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start-2": "react-scripts start --proxy-config proxy.conf.json",
+    "start": "node server.js",
+    "start-3": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "postinstall": "ng build --aot --prod"
   },
   "eslintConfig": {
     "extends": [
