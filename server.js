@@ -26,10 +26,10 @@ app.all('/*', function(req, res, next) {
 });
 
 const pusher = new Pusher({
-  appId: '716553',
-  key: '94c056c5d4985cdffc49',
-  secret: '8af26c844bf2d2e57796',
-  cluster: 'us2',
+  appId: '1289350',
+  key: '154a62cc2ce29c96ffbc',
+  secret: 'ddce1415d2fd500a1866',
+  cluster: 'us3',
   useTLS: true
 });
 app.use(bodyParser.json());
